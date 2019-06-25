@@ -1,0 +1,29 @@
+Brandon Quant
+COEN 12 Report
+Application 3
+
+Big O Runtime:
+
+LIST *createList(): O(1)
+
+SET *createSet(): O(n)
+
+void destroyList(LIST *lp): O(n)
+
+void destroySet(SET *sp): O(m) 
+
+int searchAge(SET *sp, LIST *lp, int age): O(1) 
+
+int searchId(SET *sp, LIST *lp, int id): O(m)
+
+void addItem(SET *sp, LIST *lp, int id, int age): O(1) 
+
+void removeitem(SET *sp, LIST *lp, int id, int age): O(m)
+
+int maxAgeGap (SET *sp, LIST *lp): O(n)
+
+
+I chose an array of linked list because the focus is on deletions and insertions; the insertion method is the fastest since it is O(1) and the deletion is O(m) since the worst case is where we have to traverse through all of the entries in order to find the ID. We do not care about the search functions which is why it is okay to have a slower search functions. I chose the array of linked list because it is more efficient than just having a regular linked list because when you have an age, you would have to traverse through less nodes to find the id rather than traversing through all the nodes when using a linked list. This is leads to the array of linked lists for insertion and searching for removing to be faster than those methods when using a linked list.
+
+
+

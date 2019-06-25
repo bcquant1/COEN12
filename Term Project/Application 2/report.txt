@@ -1,0 +1,18 @@
+Brandon Quant
+report.txt
+
+
+Worst Case Runtime (Big O):
+
+createDataSet: O(n)
+
+destroyDataSet: O(1)
+
+searchID: O(1)
+
+insertID: O(1)
+
+deleteID: O(1)
+
+I used a set with 2 arrays with direct hashing. I used this because it is the most efficient data structure for this scenario since each of the function that are frequent, which is the search operation, is O(1). Also the majority of the other functions Big O is O(1), which makes this data structure the most efficient. I used direct hashing since it would give me the shortest worst case big o runtime. I did not use a sorted array since the search time would be O(logn) when using binary search which is slower than the runtime of O(1) for a hash table.
+

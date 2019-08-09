@@ -6,4 +6,4 @@ Lab 3: Implement Set ADT with a Hash Table with Linear Probing (table.c under Ge
 Lab 4: Implement Set ADT with Hashing by Chaining (list.c and set.c)  
 Lab 5: Implement Priority Queue ADT with an array representation of Heap (pqueue.c) and use for Huffman coding (huffman.c)  
 Lab 6: Implement Set ADT with Hash Table with Linear Probing; Returns sorted list (difference compared to Lab 4); Uses Quicksort algorithm (table.c)  
-Final Project: Find the most time efficient implementation for different applications/scenarios.  
+Term Project: Find the most time efficient implementation for different applications/scenarios.  

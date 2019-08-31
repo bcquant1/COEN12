@@ -47,7 +47,7 @@ int numElements(SET *sp){ //returns the number of elements in the SET, runtime O
     assert(sp!=NULL);
     return sp->count;
 }
-static int search (SET *sp, void *elt, bool *found){ //seraches the SET for a specific element, expected runtime O(1), worst case runtime O(n)
+static int search (SET *sp, void *elt, bool *found){ //searches the SET for a specific element, expected runtime O(1), worst case runtime O(n)
     assert (sp != NULL);
     assert(elt != NULL);
     int i = 0;
@@ -88,7 +88,7 @@ static int search (SET *sp, void *elt, bool *found){ //seraches the SET for a sp
     return deleted_index;
 }
 
-void addElement(SET *sp, void *elt){//adding an elemtn into the set, expected runtime O(1), worst case runtime O(n)
+void addElement(SET *sp, void *elt){//adding an element into the set, expected runtime O(1), worst case runtime O(n)
     assert(sp!= NULL);
     assert(elt!=NULL);
     bool found;
